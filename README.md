@@ -40,12 +40,12 @@ Available for Windows (10 and later), Mac (macOS 12 and later) & Linux thanks to
 
 | generating notes                                                                                 |
 |--------------------------------------------------------------------------------------------------|
-<img width="1437" height="854" alt="image" src="https://github.com/user-attachments/assets/c51291b1-9226-4e77-af01-ac54d4c84496" />
-
+<img width="1439" height="867" alt="image" src="https://github.com/user-attachments/assets/30d95a26-0364-402c-b9ed-579c0fb72329" />
 
 | Settings                                                                                         |
 |--------------------------------------------------------------------------------------------------|
-<img width="1428" height="860" alt="image" src="https://github.com/user-attachments/assets/acd30eb4-cdb9-480d-8d4e-c6735e9f6d18" />
+<img width="1437" height="854" alt="image" src="https://github.com/user-attachments/assets/a6312503-c7c1-47c5-bde1-4c60d9a37220" />
+
 
 
 ## How does it work?
