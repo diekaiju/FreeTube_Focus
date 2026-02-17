@@ -38,7 +38,7 @@ Available for Windows (10 and later), Mac (macOS 12 and later) & Linux thanks to
 <img width="1428" height="860" alt="image" src="https://github.com/user-attachments/assets/42246c94-fe80-4b08-aec3-c7be19c2f4f0" />
 
 
-| generating notes                                                                                 |
+| Generating Summary/notes                                                                         |
 |--------------------------------------------------------------------------------------------------|
 <img width="1439" height="867" alt="image" src="https://github.com/user-attachments/assets/30d95a26-0364-402c-b9ed-579c0fb72329" />
 
