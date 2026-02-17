@@ -1,0 +1,101 @@
+/* Thanks to Guus Lieben for the Material Design Switch */
+
+.switch-ctn {
+  margin-block: 20px;
+  margin-inline: 16px;
+  position: relative;
+
+  &.compact {
+    margin: 0;
+  }
+}
+
+.switch-input {
+  appearance: none;
+  block-size: 20px;
+  inset-inline-start: -3px;
+  position: absolute;
+  inset-block-start: calc(50% - 3px);
+  transform: translate(0, -50%);
+  inline-size: 34px;
+}
+
+.switch-label {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  padding-block: 12px;
+  padding-inline: 68px 0;
+  position: relative;
+  text-align: start;
+
+  &::before,
+  &::after {
+    content: '';
+    margin: 0;
+    outline: 0;
+    position: absolute;
+    inset-block-start: 50%;
+    transform: translate(0, -50%);
+    transition: all 0.3s ease;
+  }
+
+  &::before {
+    background-color: var(--tertiary-text-color);
+    /* M3 Unchecked Track */
+    border-radius: 16px;
+    block-size: 32px;
+    inset-inline-start: 0;
+    inline-size: 52px;
+    transition: background-color 0.2s;
+
+    .switch-input:checked+& {
+      background-color: var(--accent-color);
+      /* M3 Checked Track */
+    }
+
+    .switch-input:disabled+& {
+      background-color: #e0e0e0;
+      opacity: 0.5;
+    }
+  }
+
+  &::after {
+    background-color: #ffffff;
+    /* Thumb Color */
+    border-radius: 50%;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 2px 1px -1px rgb(0 0 0 / 12%);
+    block-size: 24px;
+    inset-inline-start: 4px;
+    inline-size: 24px;
+    transition: transform 0.2s;
+
+    .switch-input:checked+& {
+      background-color: #ffffff;
+      /* Thumb, usually white or surface on checked too if track is dark */
+      transform: translate(calc(20px * var(--horizontal-directionality-coefficient)), -50%);
+    }
+
+    .switch-input:disabled+& {
+      background-color: #bdbdbd;
+    }
+  }
+
+  @media (width <=680px) {
+    max-inline-size: 250px;
+  }
+}
+
+.containsTooltip .switch-label-text {
+  margin-inline-end: 5px;
+}
+
+.disabled {
+  .switch-label {
+    cursor: not-allowed;
+  }
+
+  .switch-label-text {
+    opacity: 0.4;
+  }
+}

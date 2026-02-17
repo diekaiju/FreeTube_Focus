@@ -1,0 +1,9 @@
+.ft-card {
+  background-color: var(--card-bg-color);
+  margin: 8px;
+  padding-block: 3px 16px;
+  padding-inline: 16px;
+  border-radius: var(--border-radius-large);
+  box-shadow: none; /* M3 uses surface colors, or tonal elevation */
+  /* If needed, we can add a subtle border for low contrast themes */
+}
