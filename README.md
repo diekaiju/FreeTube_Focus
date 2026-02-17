@@ -30,15 +30,23 @@ Available for Windows (10 and later), Mac (macOS 12 and later) & Linux thanks to
 ## Screenshots
 | The main FreeTube Focus window                                                                         |
 |--------------------------------------------------------------------------------------------------|
-| ![](https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube1.png)|
+<img width="1437" height="869" alt="image" src="https://github.com/user-attachments/assets/39e7e6d4-bb2f-4405-b150-3b33ee57eac1" />
+
 
 | Watching a video                                                                                 |
 |--------------------------------------------------------------------------------------------------|
-| ![](https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube2.png)|
+<img width="1428" height="860" alt="image" src="https://github.com/user-attachments/assets/42246c94-fe80-4b08-aec3-c7be19c2f4f0" />
+
+
+| generating notes                                                                                 |
+|--------------------------------------------------------------------------------------------------|
+<img width="1437" height="854" alt="image" src="https://github.com/user-attachments/assets/c51291b1-9226-4e77-af01-ac54d4c84496" />
+
 
 | Settings                                                                                         |
 |--------------------------------------------------------------------------------------------------|
-| ![](https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube3.png)|
+<img width="1428" height="860" alt="image" src="https://github.com/user-attachments/assets/acd30eb4-cdb9-480d-8d4e-c6735e9f6d18" />
+
 
 ## How does it work?
 FreeTube Focus uses a built in extractor to grab and serve data / videos. The [Invidious API](https://github.com/iv-org/invidious) can also optionally be used. FreeTube Focus does not use any official APIs to obtain data. While YouTube can still see your video requests, it can no
